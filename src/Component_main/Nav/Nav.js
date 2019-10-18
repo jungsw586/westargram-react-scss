@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavLogoArea from './NavLogoArea';
 import NavInputArea from './NavInputArea';
 import NavSetArea from './NavSetArea';
-
+import './Nav.scss';
 
 class Nav extends Component {
     render() {

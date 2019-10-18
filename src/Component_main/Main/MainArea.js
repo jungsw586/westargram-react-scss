@@ -3,6 +3,7 @@ import Article from './Feeds/Article';
 import MyProfile from './MainRighit/MyProfile';
 import Story from './MainRighit/Story';
 import Recommand from './MainRighit/Recommand';
+import './MainArea.scss';
 
 class MainArea extends Component {
     render() {

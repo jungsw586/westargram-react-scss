@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ArticleHeaderUserProfile from '../ArticleHeaders/UserProfile';
 import ProfileImg_Wecode from '../../Image_Profile/wecodeprofile.jpg';
+import './Article-Header.scss';
 // import ProfileImg_Looper from '../../Image_Profile/looperprofile.jpg';
 // import ProfileImg_ParkJH from '../../Image_Profile/parkjoohoprofile.jpg';
 // import ProfileImg_RyuJY from '../../Image_Profile/ryu-profile.jpg';

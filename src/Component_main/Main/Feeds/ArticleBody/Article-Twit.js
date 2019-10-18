@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Article-Twit.scss';
 
 class ArticleTwit extends Component {
     render(){

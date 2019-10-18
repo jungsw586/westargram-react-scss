@@ -1,0 +1,37 @@
+.article-header {
+    vertical-align: middle;
+    height: 60px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+
+.article-header span, .article-header button{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    margin: 15px;
+}
+
+.feedUserProfile {
+    display: inline-block;
+}
+
+.feedUserProfile a {
+    vertical-align: middle;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.feedUserProfile img {
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+}
+
+.more-btn {
+    float: right;
+    width: 60px;
+    height: 30px;
+    border-style: none;
+}
+

@@ -5,6 +5,7 @@ import ProfileImgWework from '../Image_Profile/weworkprofile.jpg';
 import ProfileImgLooper from '../Image_Profile/looperprofile.jpg';
 import ProfileImgParkJH from '../Image_Profile/parkjoohoprofile.jpg';
 import ProfileImgRyuJY from '../Image_Profile/ryu-profile.jpg';
+import './Recommand.scss';
 
 const recommandList =[
     {user: 'wework', imgSrc: ProfileImgWework},

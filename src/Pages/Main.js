@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import Nav from '../Component_main/Nav/Nav'
 import MainArea from '../Component_main/Main/MainArea'
-import '../Main.scss';
+import '../Styles/Main.scss';
+//import '../Component_main/Nav/Nav.scss';
+import '../Component_main/Nav/NavInputFilter/NavInputFilter.scss';
+//import '../Styles/Reset.scss';
 
 class Main extends Component {
     render() {

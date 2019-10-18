@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import FeedMainImage_IU from '../../Image_FeedMain/feedmainImage.jpg' 
-
+import './Article-MainImage.scss';
 
 class Article_MainImage extends Component {
     render(){

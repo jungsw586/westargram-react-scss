@@ -1,0 +1,16 @@
+.filteredBox {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    text-align: left;
+    display: none;
+}
+
+.filteredBox div {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.filteredBox div span {
+    color:#3897f0;
+}

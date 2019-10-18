@@ -1,0 +1,79 @@
+.article-feedcontent-box {
+    position: relative;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    padding: 10px 0;
+    height: 200px;
+}
+
+.article-feed-Interactive-area {
+    text-align: left;
+}
+
+.article-feed-Interactive-area div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.article-feed-Interactive-area div img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.article-feed-Interactive-box-1 {
+    margin: 0 10px 6px 10px;
+}
+
+.article-feed-Interactive-box-2 {
+    float: right;
+    margin: 0 10px 6px 10px;
+}
+
+.article-feed-showLike-area{
+    clear: both;
+    text-align: left;
+    margin: 5px 13px 10px 13px;
+}
+
+.article-feed-showLike-area img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.article-feed-article-area{
+    margin: 5px 13px 10px 13px;
+}
+
+.article-feed-showLike-area img, .article-feed-showLike-area span{
+    vertical-align: middle;
+}
+
+.article-feed-comment-area {
+    height: 85px;
+    margin: 0 13px;
+    overflow: scroll;
+}
+
+.comment-Like {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 12px;
+    height: 11px;
+}
+
+.comment-content {
+    padding-left: 10px;
+}
+
+.comment-box {
+    vertical-align: middle;
+    position: relative;
+    border: none;
+    margin: 5px 0;
+    text-align: left;
+}

@@ -1,0 +1,85 @@
+.nav {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 1px solid #efefef;
+    height: 60px;
+}
+
+.nav-container {
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.nav-logo-area, .nav-input-area, .nav-set-area {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+}
+
+.nav-logo-area {
+    float: left;
+    width: 180px;
+    height: 30px;
+    margin: 5px;
+}
+
+.nav-instagram-logo {
+    vertical-align: middle;
+    width: 26px;
+    height: 24px;
+}
+
+.nav-bar1 {
+    vertical-align: middle;
+    display: inline-block;
+    border-left: 2px solid black;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.nav-text-logo {
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 103px;
+    height: 29px;
+}
+
+.nav-input-area {
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 5px;
+
+}
+
+.nav-input-Box {
+    position: relative;
+    top: 2px;
+    width: 215px;
+    height: 25px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+.nav-set-area {
+    float: right;
+    width: 180px;
+    height: 30px;
+    margin: 5px;}
+
+.nav-set-area img {
+    position: relative;
+    top: 2px;
+    vertical-align: middle;
+    margin: 0 10px;
+    width: 26px;
+    height: 24px;
+}

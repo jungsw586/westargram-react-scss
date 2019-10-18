@@ -3,6 +3,7 @@ import InteractiveArea from '../ArticleContents/InteractiveArea';
 import ShowLikeArea from '../ArticleContents/ShowLikeArea';
 import ArticleArea from '../ArticleContents/ArticleArea';
 import CommentArea from '../ArticleContents/CommentArea';
+import './Article-Content.scss';
 
 class ArticleContent extends Component {
     

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import '../Login.scss';
+import '../Styles/Login.scss';
+//import '../Styles/Reset.scss';
 import MainLogin from '../Component_login/MainLogin';
 import SecLogin from '../Component_login/SecLogin';
 import AppDwn from '../Component_login/AppDwn';

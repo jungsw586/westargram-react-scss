@@ -4,7 +4,7 @@ import ArticleMainImage from './ArticleBody/Article-MainImage';
 import ArticleContent from './ArticleBody/Article-Content';
 import ArticleTwit from './ArticleBody/Article-Twit';
 import { articleUserData, articleCommnetData } from './ArticleData'
-
+import './Article.scss';
 
 class Article extends Component {
     constructor(props){

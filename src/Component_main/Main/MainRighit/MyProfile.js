@@ -4,6 +4,8 @@ import React, {Component} from 'react';
 import ProfileImg_ParkJH from '../Image_Profile/parkjoohoprofile.jpg';
 // import ProfileImg_RyuJY from '../Image_Profile/ryu-profile.jpg';
 // import ProfileImg_Wework from '../Image_Profile/weworkprofile.jpg';
+import './MyProfile.scss';
+
 
 class MyProfile extends Component {
     render(){
