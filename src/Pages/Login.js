@@ -8,7 +8,7 @@ import AppStoreIcon from '../Component_login/img/appstore.png';
 import GooglePlayStoreIcon from '../Component_login/img/google-play-badge.png';
 
 
-class App extends Component {
+class Login extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -41,5 +41,4 @@ class App extends Component {
     );
   }
 }
-
-export default App;
+export default Login;
