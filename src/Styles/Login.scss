@@ -17,14 +17,20 @@ body {
   background-color: #efefef;
 
   .loginBody {
-    text-align: center;
-    min-width: 400px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 45%;
+      min-width: 300px;
+      max-width: 360px;
 
     .mainLogin{
-      width: 45%;
-      max-width: 350px;
-      min-width: 320px;
-      height: 390px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      width: 100%;
       background-color: #fff;
       border: $borderGray;
       border-radius: 1px;
@@ -41,7 +47,7 @@ body {
         display: block;
         width: 70%;
         height: auto;
-        margin: 0 auto 6px auto;
+        margin: 5px auto;
         padding: 9px 8px 7px 8px;
         border-style: none;
         border-radius: 4px;
@@ -61,72 +67,70 @@ body {
       }
 
       .barBox {
-        margin-bottom: 20px;
-      
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+        width: 100%;
+
         .or {
-          display: inline;
-          margin: 0 18px;
+          width: auto;
         }
-      
+
         .bar1, .bar2 {
-          display: inline-block;
+          width: 25%;
           border-bottom: $borderGray;
-          width: 27%;
-          margin-bottom: 6px;
+          margin: 0 5px 10px 5px;
         }  
       }
 
       .facebookLoginBox {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
 
-        .facebookLogin a { position: relative; }
+        a {
+          display: flex;
+          justify-content: flex-start;
+        }
+
+        a span {
+          display: flex;
+          align-items: center;
+        }
 
         .facebookLogo {
-          position: absolute;
-          bottom: 0;
           width: 16px;
           height: 16px;
           margin-right: 8px;
         }
-
-        .facebookLogintextLine1 {
-          padding-left: 25px;
-          font-weight: bold;
-          padding-bottom: 5px;
-        }
       }
 
-
+      .facebookLogintextLine2 {
+        margin-bottom: 30px;
+      }
     }
 
     .secLoginContainerBox {
+      display: flex;
+      justify-content: center;
       margin: 10px auto;
-      width: 45%;
-      max-width: 350px;
-      min-width: 320px;
-      height: 63px;
+      width: 100%;
       background-color: #fff;
-      border: $borderGray;
+      border: 1px solid #e6e6e6;
       border-radius: 1px;
       padding: 10px 0;
-      vertical-align: middle;
 
-      .secLoginText {
-        vertical-align: middle;
-
-        .joinLink { color: $colorInstagram; }
+      .secLoginText a {
+        color: $colorInstagram;
       }
-
-
     }
 
-    .appDwn { margin: 30px auto; }
+    .appDwn { margin: 15px auto 30px auto; }
 
 
     div.appStore, div.googlePlay {
       text-align: center;
       display: inline-block;
     }
+
     .appStoreLogo {
       @extend %storeLogo;
     }

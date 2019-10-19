@@ -1,37 +1,27 @@
 .article-header {
-    vertical-align: middle;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #efefef;
     background-color: #fff;
-}
+    padding: 15px;
 
-.article-header span, .article-header button{
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    margin: 15px;
-}
+    .feedUserProfile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-.feedUserProfile {
-    display: inline-block;
-}
+        a {
+            font-size: 16px;
+        }
+        
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
 
-.feedUserProfile a {
-    vertical-align: middle;
-    font-size: 16px;
-    padding-left: 10px;
+    .more-btn {
+        width: 60px;
+        border-style: none;
+    }
 }
-
-.feedUserProfile img {
-    vertical-align: middle;
-    height: 30px;
-    width: 30px;
-}
-
-.more-btn {
-    float: right;
-    width: 60px;
-    height: 30px;
-    border-style: none;
-}
-

@@ -17,4 +17,11 @@ body {
 
 a {
     font-weight: bold;
+    margin-right: 5px;
+}
+
+#MainArea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

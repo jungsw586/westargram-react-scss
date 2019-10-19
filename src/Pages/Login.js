@@ -26,18 +26,20 @@ class Login extends Component {
         <MainLogin />
         <SecLogin />
         <AppDwn />
-        <StoreLink
-          className="appStore Link"
-          href={this.state.storeLink.apple}
-          imgClassName={"appStoreLogo"}
-          imgSrc={AppStoreIcon}
-        />
-        <StoreLink
-          className="googlePlay Link"
-          href={this.state.storeLink.google}
-          imgClassName={"googlePlayLogo"}
-          imgSrc={GooglePlayStoreIcon}
-        />
+        <div>
+          <StoreLink
+            className="appStore Link"
+            href={this.state.storeLink.apple}
+            imgClassName={"appStoreLogo"}
+            imgSrc={AppStoreIcon}
+          />
+          <StoreLink
+            className="googlePlay Link"
+            href={this.state.storeLink.google}
+            imgClassName={"googlePlayLogo"}
+            imgSrc={GooglePlayStoreIcon}
+          />
+        </div>
       </div>
     );
   }

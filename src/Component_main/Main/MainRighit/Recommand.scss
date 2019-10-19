@@ -1,61 +1,56 @@
 .main-right-recommand {
-    width: 314px;
-    height: 197px;
-    text-align: left;
+    display: flex;
+    flex-flow: column;
     margin-top: 20px;
     border: 1px solid #efefef;
     background-color: #fff;
     padding: 10px;
-}
+    height: 30%;
 
-.main-right-recommand-content-area {
-    overflow: scroll;
-    height: 130px;
-}
+    .main-right-header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
 
-.main-right-recommand-header {
-    position: relative;
-    padding: 10px 10px;
-}
+        div {
+            color: #999;
+        }
 
-.main-right-recommand-showAll {
-    position: absolute;
-    right: 5px;
-    border: none;
-    font-size: 16px;
-    display: inline-block;
-    vertical-align: middle;
-    font-weight: bold;
-}
+        .main-right-showAll {
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
 
-.main-right-recommand-header div{
-    display: inline-block;
-    vertical-align: middle;
-    color: #999;
-}
+    .main-right-recommand-content-area {
+        display: flex;
+        flex-flow: column;
+        overflow-y: scroll;
 
-.main-right-recommand-content {
-    padding: 0 0 10px 20px;
+        .main-right-recommand-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0 10px 20px;
+        
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
 
-}
+            >div {
+                display: flex;
+                justify-content: flex-start;  
+            }
 
-.main-right-recommand-content img {
-    width: 40px;
-    height: 40px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
+            button {
+                border-style: none;
+                font-size: 16px;
+                color: #3897f0;
+                font-weight: bold;
+            }
 
-.main-right-recommand-content > div {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-right-recommand-content button {
-    vertical-align: middle;
-    border-style: none;
-    font-size: 16px;
-    color: #3897f0;
-    font-weight: bold;
+        }
+    }
 }

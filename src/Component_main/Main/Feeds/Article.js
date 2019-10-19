@@ -34,6 +34,7 @@ class Article extends Component {
             },()=>{
                 this.setState({
                     comment:'',
+                    colorOpacity: 0.3,
                 })
             });
         } else {

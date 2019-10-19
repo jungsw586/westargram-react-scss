@@ -1,18 +1,28 @@
 .main {
-    clear: both;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .main-container {
-    position: relative;
-    width: 1000px;
-    margin: 60px auto;
-    vertical-align: top;;
-}
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 60px;
 
-.main-right-container {
-    margin-left: 15px;
-    vertical-align: top;
-    width: 320px;
-    display: inline-block;
+    .feeds, .main-right-container {
+        margin: 0 10px;
+    }
+
+    .feeds {
+        width: 70%;
+    }
+
+    .main-right-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 30%;
+    }
 }

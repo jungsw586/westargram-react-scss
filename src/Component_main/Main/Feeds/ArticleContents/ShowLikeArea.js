@@ -17,7 +17,10 @@ class ShowLikeArea extends Component {
             <div className="article-feed-showLike-area">
                 <span>
                     <img className="Img-radius" src={ProfileImg_Wework} alt="ProfileImg_Wework" />
-                    <a href="/">wecode</a> 외 {this.state.numOfLikes}명이 좋아합니다.
+                    <a href="/">wecode</a>
+                    <span>
+                        외 {this.state.numOfLikes}명이 좋아합니다.
+                    </span>
                 </span>
             </div>
         );
