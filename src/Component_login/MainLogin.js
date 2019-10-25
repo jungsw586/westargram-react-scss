@@ -33,20 +33,37 @@ class MainLogin extends Component {
     handlerOnClicked = (e) => {
         this.state.IDinput.length !== 0 && this.state.PWinput.length !== 0
         ?
-        //alert('로그인 성공!')
-        this.props.history.push('/Main')
+        fetch('http://10.58.5.82:8000/login/signin', {
+            method: 'post',
+            body: JSON.stringify({
+                email: this.state.IDinput,
+                password: this.state.PWinput,
+            })
+        })
+            .then(function (res) {
+                return res.json()
+            })
+            .then(res=>{
+                console.log(res.JsonWebToken)
+                if (res.JsonWebToken) {
+                    localStorage.setItem('user',res.JsonWebToken);
+                    this.props.history.push('/Main');
+                }
+            })
         :
         alert('아이디 혹은 비밀번호를 입력해주세요!')
     }
 
     render() {
         const {
+            IDinput,
+            PWinput,
             Accessable,
             ColorOpacity,
         } = this.state
-
+        console.log(IDinput, PWinput);
         return(
-            <form className="mainLogin containerBox" onChange={this.handlerOnChanged}>
+            <div className="mainLogin containerBox" onChange={this.handlerOnChanged}>
                 <img className="logoImage" src={InstagramLogo} alt={'Instagrma Logo'}/>
                 <input className="IDinput" name="IDinput" type={"text"} placeholder="전화번호, 사용자 이름 또는 이메일" />
                 <input className="PWinput" name="PWinput" type={"password"} placeholder="비밀번호" />
@@ -71,7 +88,7 @@ class MainLogin extends Component {
                 <BarArea />
                 <FaceBookLoginArea />
                 <div className="facebookLogintextLine2"><a href={"https://www.instagram.com/accounts/password/reset/"}>비밀번호를 잊으셨나요?</a></div>
-            </form>
+            </div>
         );
     }
 

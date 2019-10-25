@@ -44,7 +44,6 @@ body {
 
       .IDinput, .PWinput {
         background-color: #fafafa;
-        display: block;
         width: 70%;
         height: auto;
         margin: 5px auto;
@@ -55,9 +54,8 @@ body {
       }
 
       .loginBtn {
-        display: block;
         width: 70%;
-        height: 9%;
+        height: 30px;
         margin: 15px auto;
         border-style: none;
         border-radius: 4px;
